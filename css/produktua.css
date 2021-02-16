@@ -1,0 +1,142 @@
+* { padding: 0; margin: 0; }
+
+						html{
+							font-family:Helvetica;
+						}
+						body {
+							 border-style: dotted; 
+							 border-width: thin; 
+							 border-color: black; 	
+							 width: 750; 
+							 
+							 margin: 0.2;
+						}	
+						
+						header {
+							 border-style: dotted; 
+							 border-width: thin; 
+							 border-color: black;
+							 margin: 15px;
+							 width: 1.98;
+							 padding: 15px; 				 
+						}
+					
+						header img{
+							
+								display:block;
+								margin:auto;
+							
+						}
+						nav {
+							 border-style: dotted; 
+							 border-width: thin; 
+							 border-color: black;
+							 margin: 15px;
+							 padding: 15px;
+							
+						}
+						#eskuma1nav{
+							float: right;
+							text-align:right;
+						}
+						#menu2{
+							display: none;
+						}
+
+						@media only screen and (max-width: 767px){
+							#menu1{
+								display: none;
+							}
+							#menu2{
+								display: block;
+							}
+						}
+					
+							
+						nav li {
+						 display: inline; 
+						 margin-right: 10px;
+						 }
+
+							 main {
+								border-style: dotted; 
+								 border-width: thin; 
+								 margin-bottom: 15px;
+								 margin-left: 15px;
+								 margin-right:15px;
+								 object-fit: cover;
+								 padding: 15px; 
+								 width: 50%
+								 }
+
+								 main img {
+                                    border-style: dotted; 
+                                    border-width: thin; 
+									max-width:98%;
+                                    width:auto;
+                                    height:auto;
+                                    float: left;
+
+
+                                 }
+								aside{
+                                    border-style: dotted; 
+								     border-width: thin; 
+								    margin-bottom: 15px;
+								    margin-left: 15px;
+								    margin-right:15px;
+                                    width: 50%;
+                                    float: right;
+
+                                }
+								article {
+									 
+									
+									padding: 15px;
+									margin: 15px; 
+									padding-left: 25px;
+								}
+
+						 footer {
+							 border-style: dotted; 
+							 border-width: thin; 
+							 border-color: black;
+							 padding: 15px;
+							 margin: 15px; 
+							 padding-left: 25px;
+							 
+						 }
+						 footer section{
+							 display: grid;
+							grid-template: auto auto / 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+							row-gap: 15px;
+							column-gap: 15px;
+						 }
+						 	#footer1 {
+								 grid-row: 1/2;
+								 grid-column: 1/span 3;
+								 border: 1px;
+							 }
+							 #footer2 {
+								grid-row: 1/2;
+								grid-column: 4/span 3;
+								border:1px;
+							}
+							#footer3 {
+								grid-row: 1/2;
+								grid-column: 7/span 3;
+								border:1px;
+							}
+						
+
+							.botoia{
+								text-decoration: none;
+								padding: 1px;
+								font-weight: 100;
+								font-size: 15px;
+								color: #ffffff;
+								background-color: #747070;
+								border-radius: 6px;
+								border: 2px solid #c6cccc;
+								
+							  }
